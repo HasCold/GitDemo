@@ -47,8 +47,7 @@ git switch bug-fix  --->> switch from master to bug-fix
 git checkout orange-mode   --->> Shift to orange-mode branch after for just checkout
 git branch -d bug-fix   --->> Delete any branch
 git branch -D bug-fix  --->>  Forcefully Delete the branch 
-git reset --hard  --->>  if you want to discard all local changes in your working directory:
-
+git merge orange-mode   --->> Merge the branch with master
 
 -------------------------------- Stash -----------------------------
 
@@ -60,3 +59,5 @@ git stash apply  -->> This applies the most recent stash to your current working
 git stash apply stash@{n}   -->> If you have multiple stashes and you want to apply a specific one, you can do so by referring to its identifier:
 git stash drop stash@{n}   --->>  After applying a stash, it will still be in the stash list until you remove it. To remove a specific stash:
 
+
+git reset --hard  --->>  if you want to discard all local changes in your working directory:
