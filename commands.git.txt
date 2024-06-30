@@ -44,3 +44,4 @@ If by mistakenly press the command only git commit after staging the file so the
 git branch  -->>  Current existing branches
 git branch bug-fix  --->>  creating new branche
 git switch bug-fix  --->> switch from master to bug-fix
+git checkout orange-mode   --->> Shift to orange-mode branch after doing any commit
