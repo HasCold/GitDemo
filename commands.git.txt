@@ -44,3 +44,7 @@ If by mistakenly press the command only git commit after staging the file so the
 git branch  -->>  Current existing branches
 git branch bug-fix  --->>  creating new branche
 git switch bug-fix  --->> switch from master to bug-fix
+git branch -d bug-fix   --->> Delete any branch
+git branch -D bug-fix  --->>  Forcefully Delete the branch 
+
+
