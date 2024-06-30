@@ -44,4 +44,19 @@ If by mistakenly press the command only git commit after staging the file so the
 git branch  -->>  Current existing branches
 git branch bug-fix  --->>  creating new branche
 git switch bug-fix  --->> switch from master to bug-fix
-git checkout orange-mode   --->> Shift to orange-mode branch after doing any commit
+git checkout orange-mode   --->> Shift to orange-mode branch after for just checkout
+git branch -d bug-fix   --->> Delete any branch
+git branch -D bug-fix  --->>  Forcefully Delete the branch 
+git reset --hard  --->>  if you want to discard all local changes in your working directory:
+
+
+-------------------------------- Stash -----------------------------
+
+. When you use the git stash command, your uncommitted changes are saved (or "stashed") away so you can switch branches without losing them. These changes are not lost; they are stored in a stash list that you can access and apply later.
+
+git stash  --->>  If you want to save your changes temporarily without committing them, you can stash them.
+git stash list  --->>  This will show you a list of all stashes. Each stash will have an identifier like stash@{0}.
+git stash apply  -->> This applies the most recent stash to your current working directory.
+git stash apply stash@{n}   -->> If you have multiple stashes and you want to apply a specific one, you can do so by referring to its identifier:
+git stash drop stash@{n}   --->>  After applying a stash, it will still be in the stash list until you remove it. To remove a specific stash:
+
