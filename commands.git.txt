@@ -18,3 +18,29 @@ Git Working Flow :-
 2. git add <fileName> or git add. or git add --a   --->>   Staging Area    or   here you can also unstage  
 3. git commit -m "any message"    --->>>    Repo (Means locally)
 4. git push origin main or main   --->> Github 
+
+
+want to see the commits :- 
+git log --oneline   // one line commit
+git log
+
+
+Standard Commit Messages :- 
+git commit -m ""  ;   {Present tense, Imperative}  Means -->> "Add footer to the directory"
+
+
+------------------------------ VIM -----------------------------
+
+If by mistakenly press the command only git commit after staging the file so the vim editor will open :- 
+1. simply add the commit message on the top  
+2. Press Esc button 
+3. Then press :wq
+
+
+--------------------------------- Branches ------------------------------
+
+. HEAD hamesha current branch ke tip pr point krta ha 
+
+git branch  -->>  Current existing branches
+git branch bug-fix  --->>  creating new branche
+git switch bug-fix  --->> switch from master to bug-fix

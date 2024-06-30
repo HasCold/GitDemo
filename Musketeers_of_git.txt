@@ -1,0 +1,14 @@
+
+3 Musketeers of git
+. Commit Object (Commit object gives the reference to your tree object).
+. Tree Object  ( Reference for your Blob object).
+. Blob Object  (Actual file that is stored in git).
+
+
+Tree Object :- Everything is stored as key-value pair in the tree object.
+
+Through this command you can see the tree object of any commit :- 
+1. git log --oneline  -->> Commit : 5c51233
+2. git show -s --pretty=raw  5c51233  -->> tree hash :  c08e4f4ad72b8add85f1ea34d06c10c75faa5bfd
+3. git ls-tree c08e4f4ad72b8add85f1ea34d06c10c75faa5bfd  // This will show you the stored blob files
+4. git show bc94381f39e972eb32aa2380fcb50862bf1e5850  //  Paste the blob hash and see the file content  
