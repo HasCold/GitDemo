@@ -1,0 +1,20 @@
+ ----------------- Docs :- https://docs.chaicode.com/terminology/ 
+
+
+Let’s setup your email and username in this config file. I would recommend you to create an account on github and then use the email and username that you have created.
+
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+
+See your git settings :-
+git config --list
+
+Show Hidden files and folders
+ls -la  or  ls -l
+
+
+Git Working Flow :- 
+1. git init   --->>   Working directory
+2. git add <fileName> or git add. or git add --a   --->>   Staging Area    or   here you can also unstage  
+3. git commit -m "any message"    --->>>    Repo (Means locally)
+4. git push origin main or main   --->> Github 
