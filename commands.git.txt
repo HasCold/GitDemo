@@ -48,6 +48,7 @@ git checkout orange-mode   --->> Shift to orange-mode branch after for just chec
 git branch -d bug-fix   --->> Delete any branch
 git branch -D bug-fix  --->>  Forcefully Delete the branch 
 git merge orange-mode   --->> Merge the branch with master
+git merge --abort  --->> Undo the merging
 
 -------------------------------- Stash -----------------------------
 
