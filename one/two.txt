@@ -1,1 +1,3 @@
 This is file two and I am bug-fix file
+
+This is master branch bug and it is also fixed successfully.
