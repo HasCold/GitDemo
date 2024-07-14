@@ -79,3 +79,8 @@ git diff <commit-hash-one>..<commit-hash-two>  --->> This is another common way 
 Git rebase is a powerful Git feature used to change the base of a branch. It effectively allows you to move a branch to a new starting point, usually a different commit, by “replaying” the commits from the original base onto the new base. This can be useful for keeping a cleaner, linear project history.
 
 Some people like to use rebase over the merge command because it allows you to keep the commit history cleaner and easier to understand. It also allows you to make changes to the code without affecting the original branch.
+
+- git rebase is basically used for this type of merger commit when you have two branches and then merge them so this commit generates automatically ; If you want to remove these commits and avoid polluting your code bases from unnecessary commit so you can rebase them 
+e.g.  c7598 (HEAD -> pink-mode) Merge branch 'master' into pink-mode
+
+- Important thing :-  99% chances are that you should don't rebasing on the main/master branch. The rebasing should be done on sub-branch (other branch). 
