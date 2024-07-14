@@ -71,3 +71,11 @@ git diff -->> This is the informatory command.
 git diff --staged  --->> See the comparison between two staged files.
 git diff <branch-name-one> <branch-name-two>   --->> See the comparison between two branches.
 git diff <commit-hash-one>..<commit-hash-two>  --->> This is another common way to see the difference  
+
+
+
+---------------------------------- Rebase in git ---------------------------------
+
+Git rebase is a powerful Git feature used to change the base of a branch. It effectively allows you to move a branch to a new starting point, usually a different commit, by “replaying” the commits from the original base onto the new base. This can be useful for keeping a cleaner, linear project history.
+
+Some people like to use rebase over the merge command because it allows you to keep the commit history cleaner and easier to understand. It also allows you to make changes to the code without affecting the original branch.
