@@ -64,3 +64,10 @@ git stash drop stash@{n}   --->>  After applying a stash, it will still be in th
 
 
 git reset --hard  --->>  if you want to discard all local changes in your working directory:
+
+
+----------------------------------- Diff ---------------------------------
+git diff -->> This is the informatory command.
+git diff --staged  --->> See the comparison between two staged files.
+git diff <branch-name-one> <branch-name-two>   --->> See the comparison between two branches.
+git diff <commit-hash-one>..<commit-hash-two>  --->> This is another common way to see the difference  
