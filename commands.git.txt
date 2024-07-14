@@ -61,7 +61,7 @@ git stash list  --->>  This will show you a list of all stashes. Each stash will
 git stash apply  -->> This applies the most recent stash to your current working directory.
 git stash apply stash@{n}   -->> If you have multiple stashes and you want to apply a specific one, you can do so by referring to its identifier:
 git stash drop stash@{n}   --->>  After applying a stash, it will still be in the stash list until you remove it. To remove a specific stash:
-
+git stash clear   --->> Clear the stack of the stash.
 
 git reset --hard  --->>  if you want to discard all local changes in your working directory:
 
