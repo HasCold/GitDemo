@@ -63,7 +63,6 @@ git stash apply stash@{n}   -->> If you have multiple stashes and you want to ap
 git stash drop stash@{n}   --->>  After applying a stash, it will still be in the stash list until you remove it. To remove a specific stash:
 git stash clear   --->> Clear the stack of the stash.
 
-git reset --hard  --->>  if you want to discard all local changes in your working directory:
 
 
 ----------------------------------- Diff ---------------------------------
@@ -89,3 +88,16 @@ Command :-
 1. git rebase <master> 
 2. git reflog (Show you the complete history) 
 3. git reset --hard <commit-hash>  -->> Go to on that particular commit code base
+
+
+-------------------------------- Remote ------------------------------
+
+git remote -v  --->> How much remote location is already setup.
+git remote add <origin-name> <remote-location-url>
+git push -u <origin-name> <remote-location-url>     //  -u  for upstream  
+git clone <repo-url>
+
+
+--------------------------------------------------------------------------------
+
+git reset --hard  --->>  if you want to discard all local changes in your working directory:
